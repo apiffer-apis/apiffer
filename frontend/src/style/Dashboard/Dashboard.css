@@ -1,0 +1,82 @@
+.sidenav
+{
+    width: 5%;
+    height: 100%;
+    /* background-color: red; */
+    border-right: .5px solid #D0D0D0;
+    border-top: .5px solid #D0D0D0;
+}
+.dashbody
+{
+    width: 95%;
+    height: 100%;
+    border-top: .5px solid #D0D0D0;
+}
+.heading-text p
+{
+    color: #797979;
+}
+.heading-text p::after
+{
+    position: absolute;
+    content: 'here';
+    font-size: .5em;
+    bottom: -5px;
+    right: -27px;
+}
+.urlbox 
+{
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 70%;
+}
+.urlbox .method
+{
+    width: 8%;
+}
+.urlbox .url
+{
+    width: 92%;
+}
+.urlbox select
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 0.8em !important;
+}
+.urlbox select option
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+
+.urlbox input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.api-operation
+{
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    font-size: .4em;
+}
+
+.apistat
+{
+    color: rgb(102, 102, 102);
+    font-size: .8em;
+}
+.apiurl
+{
+    font-size: .8em;
+    color: gray;
+}

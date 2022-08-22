@@ -1,0 +1,99 @@
+.testurl {
+  border: 1px solid #cacaca;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+  width: 70%;
+}
+.testurl .method {
+  width: 15%;
+}
+.testurl .url {
+  width: 85%;
+}
+.testurl select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.testurl select option {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+.testurl input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.test {
+  cursor: pointer;
+}
+.testoutput {
+  border-left: 0.5px solid #d0d0d0;
+  border-top: 0.5px solid #d0d0d0;
+}
+.outputarea {
+  width: 90%;
+  height: 60%;
+  border: 0.5px solid #d0d0d0;
+  
+}
+.typeoutput {
+  height: 8%;
+}
+.typeoutput .item{
+  list-style: none;
+  font-size: .7em;
+  margin: 0 5px;
+  padding: 1px 5px;
+}
+.resoutput {
+  height: 92%;
+ 
+}
+
+.resoutput textarea
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: .6em;
+    padding: 5px;
+    color: rgb(255, 89, 0);
+}
+.item {
+  cursor: pointer;
+  font-size: .8em;
+  font-weight: 400;
+}
+.item:hover {
+  background-color: var(--master-color);
+  border-radius: 2px;
+  color: #fff;
+}
+.item.active {
+  background-color: var(--master-color);
+  border-radius: 2px;
+  color: #fff;
+}
+
+.methodselect
+{
+  font-size: .8em;
+  text-align: center;
+}
+.objarea
+{
+  font-size: .8em;
+  padding: 10px;
+}
+
+.testbtn
+{
+  cursor: pointer;
+}

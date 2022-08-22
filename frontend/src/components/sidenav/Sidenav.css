@@ -1,0 +1,25 @@
+.sidebar-menu-text
+{
+    font-size: .45em;
+}
+.dash svg 
+{
+    margin: 0;
+    padding: 0;
+}
+.side-item
+{
+    cursor: pointer;
+}
+.side-item:hover
+{
+    background-color: var(--master-color);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+}
+.active .side-item
+{
+    background-color: var(--master-color);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,15 @@
+.navitem {
+  cursor: pointer;
+  font-size: .8em;
+  font-weight: 400;
+}
+.navitem:hover {
+  background-color: var(--master-color);
+  border-radius: 12px;
+  color: #fff;
+}
+.navitem.active {
+  background-color: var(--master-color);
+  border-radius: 15px;
+  color: #fff;
+}

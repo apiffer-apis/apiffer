@@ -1,0 +1,31 @@
+.hi-95
+{
+    height: 93vh;
+    /* overflow-y: scroll; */
+}
+.hi-5
+{
+    height: 7vh;
+}
+.left-side,.right-side
+{
+height: 100vh;
+}
+.h-90
+{
+    height: 90vh;
+}
+.w-7
+{
+    width: 7%;
+}
+.w-93
+{
+    width: 93%;
+}
+
+.w-5
+{
+    width: 10%;
+}
+
