@@ -1,0 +1,7 @@
+**/nodes/*.js
+.pm2/
+.pm2/logs/
+.pm2/logs/pm2-*.log
+.pm2/logs/pm2-*.err
+**/node_modules
+node_modules
