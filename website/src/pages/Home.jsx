@@ -2,8 +2,9 @@ import React from "react";
 import "../style/Home/Home.css";
 import avatar from "../assets/images/avatar.webp";
 import bag from "../assets/images/bagvector.svg";
-import { useNavigate } from "react-router-dom";
 import chrome from "../assets/images/logos_chrome.svg"
+import { useNavigate } from "react-router-dom";
+
 function Home() {
   const navigate = useNavigate()
   return (
@@ -16,7 +17,7 @@ function Home() {
         <div className="background absolute bottom-0 left-0 ">
           <img src={bag} className="h-3/4 w-3/4" alt="background" />
         </div>
-        <div className="text w-40 z-50 absolute top-20  left-10">
+        <div className="text w-40 z-50 absolute top-60  left-10">
           <p className="text-5xl land-txt">Yes You are on the Right Place</p>
         </div>
       </div>
@@ -60,14 +61,14 @@ function Home() {
          <button className="getapi-btn w-4/5">Get Api</button>
         </div>
          <div className="heading w-1/3">
-         <div className="head">Heading</div>
-         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+         <div className="head">What is apiffer?</div>
+         Apiffer is an platform which we have created where someone who has little or no knowledge about Backend can easily and quickly create APIs hassle free
          </div>
        </div>
        <div className="flex flex-row justify-around">
          <div className="heading w-1/3">
-         <div className="head">Heading</div>
-         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+         <div className="head">Our inspiration</div>
+         We at apiffer have seen many people  try to make dynamic web apps without knowing any backend or API knowledge. What they do is they try to use the APIs mentioned in the tutorial they're following but most of them don't work or have rate limitations. So we tried to create a platform where you can quickly create APIs without any backend knowledge
          </div>
          <div className="getapi w-1/4 flex justify-center align-middle">
          <button className="getapi-btn">GET API</button>

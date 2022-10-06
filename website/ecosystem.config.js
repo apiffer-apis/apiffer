@@ -1,6 +1,6 @@
 module.exports = {
     apps : [{
       name   : "frontend",
-      script : "npm start"
+      script : "./src/index.js"
     }]
   }
