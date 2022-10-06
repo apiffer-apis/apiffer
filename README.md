@@ -72,6 +72,10 @@ Start the server
   npm run start
 ```
 
+or use docker compose
+```bash
+docker-compose up -d --build   
+```
 
 ## API Reference
 
