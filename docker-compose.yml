@@ -1,0 +1,21 @@
+version: '3'
+services:
+  server: 
+    build: ./server
+    image: tiotobing/nodejs
+    container_name: server
+    ports:
+      - "1269:1269"
+      - "1240:1240"
+  web: 
+    build: ./website
+    image: tiotobing/nodejs
+    container_name: web
+    ports:
+      - "3000:3000"
+  nginx: 
+    build: ./nginx
+    image: tiotobing/nginx
+    container_name: nginx
+    ports:
+      - 80:80
