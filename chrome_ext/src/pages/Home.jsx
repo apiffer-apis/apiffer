@@ -20,11 +20,8 @@ export default function Home() {
     watch,
     formState: { errors },
   } = useForm();
-  const [scanUrl, setscanUrl] = useState("/user/v1");
-  const site = useSelector((state) => state.sitecontrol);
-  const apilist = useSelector((state) => state.apilist);
 
-  const localApiList = JSON.parse(window.localStorage.getItem("apiffer"));
+
 
   const reqpostapi = (body) => {
     setCreateApiStatus(true)
@@ -39,32 +36,6 @@ export default function Home() {
             method: "GET",
           })
         );
-        dispatch();
-        // setNoti({
-        //   msg: "API Created ! Enjoy",
-        //   tout: 2000,
-        //   vis: true,
-        // })
-        let arr = [];
-        if (localApiList) {
-          arr = [...localApiList.apis];
-          arr.push(data.data);
-
-          localStorage.setItem(
-            "apiffer",
-            JSON.stringify({
-              apis: arr,
-            })
-          );
-        } else {
-
-          localStorage.setItem(
-            "apiffer",
-            JSON.stringify({
-              apis: [],
-            })
-          );
-        }
       })
       .catch((err) => {
         console.log(err);

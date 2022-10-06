@@ -14,13 +14,6 @@ export default function Apilist() {
 
   const handelstop = (path,index) =>{
     axios.get(`https://apiffer.ml/stop?endpoint=${path}`)
-    // dispatch(setNoti(
-    //   {
-    //     msg: "API Deleted",
-    //     tout: 1500,
-    //     vis: true,
-    //   }
-    // ))
     dispatch(removeApi(index))
   }
 function handleBack()

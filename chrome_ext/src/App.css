@@ -23,6 +23,7 @@ input
 }
 textarea
 {
+  outline: none;
   resize: none;
   width: 100%;
 }
