@@ -8,7 +8,6 @@ function Navbar() {
         <NavLink to="/home">
           <li className="navitem py-2 inline mx-3 px-3  font-medium">Home</li>
         </NavLink>
-        {/* <NavLink to="/explore"><li className="item p-1 inline mx-3 font-medium">Explore</li></NavLink> */}
       </ul>
       <ul>
         <NavLink to="/dashboard">
