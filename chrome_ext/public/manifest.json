@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Apiffer",
+  "version": "1.0.1",
+  "icons": { "16": "icon16.png",
+  "48": "icon48.png",
+ "128": "icon128.png" },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Scan Page"
+  },
+  "permissions": ["scripting","tabs","storage"],
+  "host_permissions": ["https://*/", "http://*/"]
+}

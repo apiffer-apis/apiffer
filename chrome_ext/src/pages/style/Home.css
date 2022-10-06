@@ -1,0 +1,13 @@
+.pageTitle h1
+{
+    font-family: 'Silkscreen', cursive;
+}
+.urlBarico
+{
+width: 10%;
+}
+.urlBarinput
+{
+    width: 90%;
+    color: #dddddd;
+}
