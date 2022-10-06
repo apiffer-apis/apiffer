@@ -19,7 +19,7 @@ function Createapi() {
   let [Objstr, setObjstr] = useState(
     JSON.stringify(
       {
-        name: "tyep:String",
+        name: "type:String",
         _id: "type:String",
         batchno: "type:Number",
       },
