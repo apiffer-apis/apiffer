@@ -49,8 +49,8 @@ For support, email at [support@apiffer.ml](mailto:support@apiffer.ml)
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Light Orange| ![#ff837b](https://via.placeholder.com/10/ff837b?text=+) #ff837b |
-| Grey | ![#808080](https://via.placeholder.com/10/808080?text=+) #808080 |
+| Light Orange| ![#ff837b](https://via.placeholder.com/14/ff837b.png) #ff837b |
+| Grey | ![#808080](https://via.placeholder.com/15/808080.png) #808080 |
 
 
 
