@@ -7,10 +7,9 @@
 # <p align=center> Apiffer </p>
 
 <p align="center">
-<img src=https://badges.frapsoft.com/os/v2/open-source.svg?v"/>
-<img src=https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-<img src="https://img.shields.io/github/license/apiffer-apis/apiffer"/>
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fapiffer-apis%2Fapiffert"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fapiffer-apis%2Fapiffer&label=visitors&countColor=%23263759&style=plastic" /></a>
+<img src="https://badges.frapsoft.com/os/v2/open-source.svg?v"/>
+<img src="https://img.shields.io/badge/PRs-Welcome-brightgreen"/>
+<img src="https://img.shields.io/badge/License-GPL%20v3-yellow.svg"/></a>
 <img src="https://img.shields.io/github/stars/apiffer-apis/apiffer"/>
 <img src="https://img.shields.io/github/forks/apiffer-apis/apiffer"/>
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
