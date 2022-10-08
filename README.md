@@ -3,31 +3,24 @@
 <image src = "./assets/logo.png" width = 150 >
 </p>
 
----
 
-# <p align=center> CoWIN Smart Print </p>
+# <p align=center> Apiffer </p>
 
 <p align="center">
 <img src=https://badges.frapsoft.com/os/v2/open-source.svg?v"/>
 <img src=https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square"/>
-<img src="https://img.shields.io/github/license/ShreyamMaity/cowin_smart_print"/>
-<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FShreyamMaity%2Fcowin_smart_print"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FShreyamMaity%2Fcowin_smart_print&label=visitors&countColor=%23263759&style=plastic" /></a>
-<img src="https://img.shields.io/github/stars/ShreyamMaity/cowin_smart_print"/>
-<img src="https://img.shields.io/github/forks/ShreyamMaity/cowin_smart_print"/>
+<img src="https://img.shields.io/github/license/apiffer-apis/apiffer"/>
+<a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fapiffer-apis%2Fapiffert"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fapiffer-apis%2Fapiffer&label=visitors&countColor=%23263759&style=plastic" /></a>
+<img src="https://img.shields.io/github/stars/apiffer-apis/apiffer"/>
+<img src="https://img.shields.io/github/forks/apiffer-apis/apiffer"/>
 <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
 </p>
 
 ---
 
-> A GUI based CoWIN Certificate to Smart Card Converter.  
-> Download from [Microsoft Store](https://www.microsoft.com/store/productId/9PM5ZJG9SLW3)
-# Apiffer 
+> Create instant apis for your frontend needs without any backend knowlege.  
 
-This is the README for  "Apiffer". All the details are mentioned here.
-
-
-![Logo](https://github.com/apiffer-apis/apiffer/blob/main/assets/apiffer%20512.svg)
-
+> Visit [Website](https://apiffer.ml)
 
 ## 🚀 About Apiffer
 
@@ -42,7 +35,7 @@ Apiffer is an platform which we have created where someone who has little or no 
 
 ## Support
 
-For support, email at sm896774231@gmail.com 
+For support, email at [support@apiffer.ml](mailto:support@apiffer.ml)
 
 
 
